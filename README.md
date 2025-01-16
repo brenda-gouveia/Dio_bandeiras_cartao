@@ -2,6 +2,8 @@
 
 Este programa recebe um número de cartão de crédito como entrada e retorna se o número é válido ou não. Além disso, verifica de qual bandeira o cartão faz parte.
 
+Esse trabalho foi feito para o curso sobre Github Copilot da DIO;
+
 ## Bandeiras Suportadas
 
 - **Visa**: Bins começam com 4. Comprimento do número do cartão: 13 ou 16 dígitos.
@@ -33,4 +35,4 @@ from bandeira_cartao import validate_credit_card
 
 numero_cartao = "4111111111111111"
 resultado = validate_credit_card(numero_cartao)
-print(resultado)  # Saída: "Visa"
+print(resultado)
